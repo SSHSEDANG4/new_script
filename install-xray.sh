@@ -2,7 +2,7 @@
 # XRay Installation
 # Coded By BotVPN
 # ==================================
-domain=$(cat /root/domain)
+domain=$(cat /etc/v2ray/domain)
 
 # // Make Main Directory
 mkdir -p /usr/local/xray/
