@@ -37,3 +37,9 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      -H "Content-Type: application/json" \
      --data '{"type":"A","name":"'${sub}'","content":"'${IP}'","ttl":120,"proxied":false}')
 echo "DONE...!"
+echo -e "==============================="
+read -p "Tekan Enter Untuk Kembali Ke Menu....."
+sleep 1
+menu
+exit 0
+fi
