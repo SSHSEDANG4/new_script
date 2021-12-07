@@ -17,3 +17,8 @@ echo "DOMAIN         : $domain"
 echo "Email          : $email"
 echo "Api Key        : $key"
 echo -e "==============================="
+read -p "Tekan Enter Untuk Kembali Ke Menu....."
+sleep 1
+menu
+exit 0
+fi
