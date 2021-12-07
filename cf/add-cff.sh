@@ -2,7 +2,7 @@
 
 cd /root
 echo "        Add ID Cloudlare "
-echo ""
+echo "==============================="
 read -e -p " Masukan Domain :$domain" domain
 read -e -p " Masukan Email Cloudflare :" email
 read -e -p " Masukan Api Key :" key
