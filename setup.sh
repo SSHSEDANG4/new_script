@@ -37,29 +37,29 @@ clear
 echo "sila contact admin untuk premium"
 rm -f setup.sh
 
-echo '                          Hmm..                           '
+echo '                   Wellcome User....                      '
 echo '                                                          '
 echo '                                                          '
 echo '                                                          '
-echo '                  AutoScript BY BotVPN                   '
-echo '                  Telegram t.me/onepiecevpncrew                   '
+echo '             AutoScript By SSH SEDANG NETWORK             '
+echo '              Telegram : t.me/sshsedang4                  '
 sleep 20
 exit 0
 fi
 echo '============================================='
-echo '          Sila Tunggu sebentar '
+echo '         Silakan Tunggu sebentar '
 echo 'Process Update & Upgrade Sedang Dijalankan '
 echo '============================================='
 sleep 2
 apt update && apt upgrade -y
 clear
 echo '============================================='
-echo '      Process Update&Upgrade Selesai '
+echo '      Process Update & Upgrade Selesai '
 echo '============================================='
 sleep 2
 clear
 echo '============================================='
-echo '        Process Seterusnya Sila Tunggu '
+echo '        Process Seterusnya Silakan Tunggu '
 echo '============================================='
 sleep 2
 mkdir /etc/v2ray
@@ -68,7 +68,7 @@ mkdir /var/lib/premium-script;
 mkdir /var/lib/crot-script;
 clear
 echo '============================================='
-echo "Sila Masukkan DOMAIN, Jika TIADA KLIK Enter"
+echo "Sila Masukkan DOMAIN, Jika Tidak ada KLIK Enter"
 echo '============================================='
 read -p "Hostname / Domain: " host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
@@ -198,8 +198,8 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""
-echo "   - 1st Dev/Main            : BOTVPN"  | tee -a log-install.txt
-echo "   - Telegram                : t.me/onepiecevpncrew"  | tee -a log-install.txt
+echo "   - 1st Dev/Main            : SSH SEDANG NETWORK"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/sshsedang4"  | tee -a log-install.txt
 echo ""
 
 sleep 3
